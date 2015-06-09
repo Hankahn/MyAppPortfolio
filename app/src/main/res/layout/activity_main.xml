@@ -20,36 +20,42 @@
         android:id="@+id/button_media_streamer"
         style="@style/AppButtonOrange"
         android:text="@string/media_streamer"
-        android:layout_below="@id/textview_title" />
+        android:layout_below="@id/textview_title"
+        android:onClick="onClickButton" />
 
     <Button
         android:id="@+id/button_super_duo1"
         style="@style/AppButtonOrange"
         android:text="@string/super_duo1"
-        android:layout_below="@id/button_media_streamer" />
+        android:layout_below="@id/button_media_streamer"
+        android:onClick="onClickButton" />
 
     <Button
         android:id="@+id/button_super_duo2"
         style="@style/AppButtonOrange"
         android:text="@string/super_duo2"
-        android:layout_below="@id/button_super_duo1" />
+        android:layout_below="@id/button_super_duo1"
+        android:onClick="onClickButton" />
 
     <Button
         android:id="@+id/button_ant_terminator"
         style="@style/AppButtonOrange"
         android:text="@string/ant_terminator"
-        android:layout_below="@id/button_super_duo2" />
+        android:layout_below="@id/button_super_duo2"
+        android:onClick="onClickButton" />
 
     <Button
         android:id="@+id/button_materialize"
         style="@style/AppButtonOrange"
         android:text="@string/materialize"
-        android:layout_below="@id/button_ant_terminator" />
+        android:layout_below="@id/button_ant_terminator"
+        android:onClick="onClickButton" />
 
     <Button
         android:id="@+id/button_capstone"
         style="@style/AppButtonRed"
         android:text="@string/capstone"
-        android:layout_below="@id/button_materialize" />
+        android:layout_below="@id/button_materialize"
+        android:onClick="onClickButton" />
 
 </RelativeLayout>

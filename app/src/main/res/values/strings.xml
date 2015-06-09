@@ -9,4 +9,6 @@
     <string name="ant_terminator">Build It Bigger</string>
     <string name="materialize">XYZ Reader</string>
     <string name="capstone">Capstone: My Own App</string>
+    <string name="toast_message_base">This will load my</string>
+    <string name="toast_message_end"> app!</string>
 </resources>
